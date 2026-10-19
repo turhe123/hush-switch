@@ -1,5 +1,7 @@
 # HushSwitch
 
+**🌐 Website:** [turhe123.github.io/hush-switch](https://turhe123.github.io/hush-switch/)
+
 One global hotkey to mute or unmute your microphone in any app, with push-to-talk and an on-air indicator.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,17 @@ HushSwitch is a free, open-source, 100% native, backend-free alternative to paid
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="HushSwitch menu bar panel showing a red Mute button while the mic is live" width="720"></p>
+
+<p align="center"><em>The menu bar panel with a big Mute button, the current hotkey, and pickers for the input device and mode.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="HushSwitch Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the global hotkey, mode, on-air indicator, sound cues, unmute on quit and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-muted.png" alt="HushSwitch menu bar panel in the muted state with a green Unmute button" width="560"></p>
+
+<p align="center"><em>When the mic is muted, the panel switches to a green Unmute button and shows the Muted status.</em></p>
 
 ## Install
 

@@ -1,0 +1,60 @@
+{
+  "seo_title": "Global mic mute hotkey for macOS",
+  "seo_description": "HushSwitch is a free, open-source macOS menu bar app that mutes your mic in any app with one global hotkey. Push-to-talk and an ON AIR indicator included.",
+  "hero_title_line1": "Mute your mic",
+  "hero_title_accent": "with one keystroke.",
+  "hero_sub": "HushSwitch mutes or unmutes your microphone in any app with a single global hotkey (Control-Option-M by default). Toggle, push-to-talk and push-to-mute modes live in the menu bar.",
+  "features_title": "Built for the unmuted moment.",
+  "features_sub": "A small menu bar utility that does one job and keeps its state honest.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey, any app",
+      "desc": "Record any key combination in Settings. HushSwitch warns you if macOS or another app already uses it."
+    },
+    {
+      "icon": "sliders",
+      "title": "Toggle, push-to-talk, push-to-mute",
+      "desc": "Stay muted until you hold the key, stay live until you hold it, or simply toggle. Key auto-repeat is ignored."
+    },
+    {
+      "icon": "eye",
+      "title": "Always shows the real state",
+      "desc": "The menu bar icon shows a mic when live and a red slashed mic when muted. It stays correct even if another app changes the mute or volume."
+    },
+    {
+      "icon": "display",
+      "title": "Floating ON AIR indicator",
+      "desc": "An optional click-through pill appears on every Space only while your mic is live. Place it in any screen corner."
+    },
+    {
+      "icon": "speaker",
+      "title": "Pick the device to control",
+      "desc": "Follow the system default input or choose a specific microphone. If a device has no mute control, HushSwitch sets its input volume to zero and restores it on unmute."
+    },
+    {
+      "icon": "lock",
+      "title": "No accounts, no recording",
+      "desc": "It never records or reads audio and has no servers or analytics. It only changes device properties through CoreAudio."
+    }
+  ],
+  "permissions_step": "No special permissions are required. The optional Launch at login toggle adds a login item you can review in System Settings > General > Login Items.",
+  "faq": [
+    {
+      "q": "Is HushSwitch really free and open source?",
+      "a": "Yes. HushSwitch is free and released under the MIT license, with the full source on GitHub. It has no accounts, no servers and no analytics."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None. The hotkey uses Carbon RegisterEventHotKey, so Accessibility is not needed, and the app never records audio, so Microphone access is not needed either. The only system interaction is the optional Launch at login item."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Your settings, such as the hotkey, mode and indicator position, are saved in the app's local preferences. Nothing is sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and HushSwitch is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

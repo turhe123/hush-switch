@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar panel with a big Mute button, the current hotkey, and pickers for the input device and mode.","alt":"HushSwitch menu bar panel showing a red Mute button while the mic is live"},
+  {"file":"02-settings.png","caption":"Settings for the global hotkey, mode, on-air indicator, sound cues, unmute on quit and launch at login.","alt":"HushSwitch Settings window"},
+  {"file":"03-muted.png","caption":"When the mic is muted, the panel switches to a green Unmute button and shows the Muted status.","alt":"HushSwitch menu bar panel in the muted state with a green Unmute button"}
+]
